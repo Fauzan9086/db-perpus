@@ -52,7 +52,7 @@ if (isset($_POST['simpan'])) {
     $nama   = $_POST['nama_anggota'];
     $pass   = $_POST['password_anggota'];
     $alamat = $_POST['alamat_anggota'];
-    $telp   = $_POST['no_telpon'];
+    $telp   = $_POST['no_telp'];
 
     $query = "INSERT INTO anggota (no_anggota, nama_anggota, password_anggota, alamat_anggota, no_telp)
               VALUES ('$no', '$nama', '$pass', '$alamat', '$telp')";
